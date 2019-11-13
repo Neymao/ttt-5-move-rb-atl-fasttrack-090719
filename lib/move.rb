@@ -7,6 +7,17 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index(input)
+  return index = input.to_i - 1
+end
+
+def move(board, index, character)
+  board[index] = character
+  return board
+end
+
+
 def number_adder(n)
   n += 10
 end
