@@ -17,7 +17,10 @@ def move(board, index, value)
   return board
 end
 
-
+def move(board, index, character)
+  board[index] = character
+  return board
+end
 
 
 def number_adder(n)
