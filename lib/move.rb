@@ -12,15 +12,12 @@ def input_to_index(input)
   return index = input.to_i - 1
 end
 
-def move(board, index, value)
-  board[index] = value
+def move(board, index, "x")
+  board[index] = "x"
   return board
 end
 
-def move(board, index, character)
-  board[index] = character
-  return board
-end
+
 
 
 def number_adder(n)
