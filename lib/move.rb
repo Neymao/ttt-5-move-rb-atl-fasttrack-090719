@@ -18,6 +18,8 @@ def move(board, index, value)
 end
 
 
+
+
 def number_adder(n)
   n += 10
 end
